@@ -7,3 +7,31 @@
 
 # .tfvars files
 *.tfvars
+
+
+*.dll
+*.exe
+.DS_Store
+bin/
+modules-dev/
+/pkg/
+website/.vagrant
+website/.bundle
+website/build
+website/node_modules
+.vagrant/
+*.backup
+*.log
+*.bak
+*~
+.*.swp
+.idea
+*.iml
+*.test
+*.iml
+
+website/vendor
+
+# Test exclusions
+!command/testdata/**/*.tfstate
+!command/testdata/**/.terraform/
